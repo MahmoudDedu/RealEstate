@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="{{asset('assets/user/css/style.css')}}">
     <link rel="stylesheet" href="{{asset('assets/user/css/responsive.css')}}">
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    
 
 </head>
 

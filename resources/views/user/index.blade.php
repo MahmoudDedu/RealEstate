@@ -7,11 +7,6 @@
     <div id="preloader">
         <div id="status">&nbsp;</div>
     </div>
-
-    <!-- Header Connect -->
-    @include('user.partials.header')
-    <!-- End Header Connect -->
-
     <!-- Navbar -->
     @include('user.partials.navbar')
     <!-- End Navbar -->
@@ -21,7 +16,7 @@
     <!-- End Slider Area -->
 
     <!-- Property Area -->
-    <div class="content-area recent-property" style="padding-bottom: 60px; background-color: rgb(252, 252, 252);">
+    <div class="content-area recent-property"">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 padding-top-40 properties-page">
@@ -32,16 +27,6 @@
 
                         <!--End Catigories-->
 
-                        <!--Style view-->
-                        <div class="col-xs-2 layout-switcher">
-                            <a class="layout-list" href="javascript:void(0);">
-                                <i class="fa fa-th-list"></i>
-                            </a>
-                            <a class="layout-grid active" href="javascript:void(0);">
-                                <i class="fa fa-th"></i>
-                            </a>
-                        </div>
-                        <!--End Style view-->
                     </div>
                     <div class="row">
                         <div id="list-type" class="proerty-th">
