@@ -16,7 +16,7 @@
     <!-- End Slider Area -->
 
     <!-- Property Area -->
-    <div class="content-area recent-property"">
+    <div class="content-area recent-property">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 padding-top-40 properties-page">
