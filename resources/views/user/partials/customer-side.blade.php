@@ -21,6 +21,42 @@
                                 <img src="{{asset('assets/user/img/client-face1.png')}}" alt="">
                             </div>
                         </div>
+                        <div class="item">
+                            <div class="client-text">
+                                <p>Nulla quis dapibus nisl. Suspendisse llam sed arcu ultried arcu ultricies !</p>
+                                <h4><strong>Ohidul Islam, </strong><i>Web Designer</i></h4>
+                            </div>
+                            <div class="client-face wow fadeInRight" data-wow-delay=".9s">
+                                <img src="{{asset('assets/user/img/client-face1.png')}}" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="client-text">
+                                <p>Nulla quis dapibus nisl. Suspendisse llam sed arcu ultried arcu ultricies !</p>
+                                <h4><strong>Ohidul Islam, </strong><i>Web Designer</i></h4>
+                            </div>
+                            <div class="client-face wow fadeInRight" data-wow-delay=".9s">
+                                <img src="{{asset('assets/user/img/client-face1.png')}}" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="client-text">
+                                <p>Nulla quis dapibus nisl. Suspendisse llam sed arcu ultried arcu ultricies !</p>
+                                <h4><strong>Ohidul Islam, </strong><i>Web Designer</i></h4>
+                            </div>
+                            <div class="client-face wow fadeInRight" data-wow-delay=".9s">
+                                <img src="{{asset('assets/user/img/client-face1.png')}}" alt="">
+                            </div>
+                        </div>
+                            <div class="item">
+                                <div class="client-text">
+                                    <p>Nulla quis dapibus nisl. Suspendisse llam sed arcu ultried arcu ultricies !</p>
+                                    <h4><strong>Ohidul Islam, </strong><i>Web Designer</i></h4>
+                                </div>
+                                <div class="client-face wow fadeInRight" data-wow-delay=".9s">
+                                    <img src="{{asset('assets/user/img/client-face1.png')}}" alt="">
+                                </div>
+                            </div>
                     </div>
                 </div>
             </div>
