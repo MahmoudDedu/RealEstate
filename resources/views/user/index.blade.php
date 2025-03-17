@@ -54,8 +54,19 @@
             <!--paginate-->
             @include('user.components.pagination')
             <!--End paginate-->
-
         </div>
+
+                <!--customer-side -->
+            @include('user.partials.customer-side')
+                <!-- End customer-side -->
+
+                <!-- Count area -->
+                @include('user.partials.count-area')
+                <!-- End Count area -->
+
+                <!-- boy-sale area -->
+                @include('user.partials.bo-sale-area')
+                <!-- End boy-sale area -->
 
     </div>
     </div>

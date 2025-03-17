@@ -8,7 +8,7 @@
                     <div class="single-footer">
                         <h4>About us</h4>
                         <div class="footer-title-line"></div>
-                        <img src="{{asset('assets/user')}}/img/footer-logo.png" alt="Logo" class="wow pulse" data-wow-delay="1s">
+                        <img src="{{asset('assets/user/img/footer-logo.png')}}" alt="Logo" class="wow pulse" data-wow-delay="1s">
                         <p>We provide high-quality services and property solutions for all your needs.</p>
                         <ul class="footer-adress">
                             <li><i class="pe-7s-map-marker strong"></i> 9089 Your Address Here</li>
@@ -43,7 +43,7 @@
                             <li>
                                 <div class="col-md-3 col-sm-4 col-xs-4 blg-thumb p0">
                                     <a href="single.html">
-                                        <img src="{{asset('assets/user')}}/img/demo/small-property-1.jpg" alt="News Image">
+                                        <img src="{{asset('assets/user/img/demo/small-property-1.jpg')}}" alt="News Image">
                                     </a>
                                     <span class="blg-date">01-03-2025</span>
                                 </div>
@@ -94,7 +94,7 @@
         <div class="container">
             <div class="row">
                 <div class="pull-left">
-                    <span> &copy; 2025 <a href="http://www.KimaroTec.com">KimaroTheme</a>, All rights reserved </span>
+                    <span> &copy; 2025 <a href="#">Mahmoud</a>, All rights reserved </span>
                 </div>
                 <div class="bottom-menu pull-right">
                     <ul>
@@ -110,8 +110,8 @@
 </div>
 
 <!-- Include JS -->
-<script src="{{asset('assets/user')}}/js/jquery.min.js"></script>
-<script src="{{asset('assets/user')}}/js/bootstrap.min.js"></script>
-<script src="{{asset('assets/user')}}/js/icheck.min.js"></script>
+<script src="{{asset('assets/user/js/jquery.min.js')}}"></script>
+<script src="{{asset('assets/user/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('assets/user/js/icheck.min.js')}}"></script>
 
 <!-- Footer complete! -->
