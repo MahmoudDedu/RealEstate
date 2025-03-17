@@ -59,6 +59,7 @@
         text-decoration: none;
         color: #333;
         font-weight: bold;
+        font-size: 1.5rem; /* تكبير حجم الخط */
     }
 
     .scroll-btn {
