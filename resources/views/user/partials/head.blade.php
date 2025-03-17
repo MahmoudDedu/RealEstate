@@ -6,7 +6,7 @@
     <meta name="author" content="Kimarotec">
     <meta name="keyword" content="html5, css, bootstrap, عقارات، موقع عقارات، قالب bootstrap">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <!-- خطوط Google -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800' rel='stylesheet' type='text/css'>
 
@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="{{asset('assets/user/css/owl.transitions.css')}}">
     <link rel="stylesheet" href="{{asset('assets/user/css/style.css')}}">
     <link rel="stylesheet" href="{{asset('assets/user/css/responsive.css')}}">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
 </head>
 
