@@ -14,7 +14,7 @@
     <!-- Slider Area -->
     @include('user.partials.slider')
     <!-- End Slider Area -->
-    
+
     <!-- content Area -->
     @yield('content')
     <!-- End content Area -->

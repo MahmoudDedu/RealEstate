@@ -14,8 +14,8 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse yamm" id="navigation">
             <div class="button navbar-right">
-                <button class="navbar-btn nav-button wow bounceInRight login" onclick=" window.open('register.html')" data-wow-delay="0.4s">تسجيل الدخول</button>
-                <button class="navbar-btn nav-button wow fadeInRight" onclick=" window.open('submit-property.html')" data-wow-delay="0.5s">تسجيل</button>
+                <a class="navbar-btn nav-button wow bounceInRight login" href="{{route('login')}}" data-wow-delay="0.4s">تسجيل الدخول</a>
+                <a class="navbar-btn nav-button wow fadeInRight" href="{{route('register')}}"  data-wow-delay="0.5s">تسجيل</a>
             </div>
             <ul class="main-nav nav navbar-nav navbar-right">
                 <li class="wow fadeInDown" data-wow-delay="0.1s"><a class="" href="properties.html">الرئيسية</a></li>
