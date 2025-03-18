@@ -3,9 +3,9 @@
         <div class="pull-right">
             <div class="pagination">
                 <ul>
-                    <li><a href="#">Prev</a></li>
+                    <li><a href="#">السابق</a></li>
                     <li><a href="#">1</a></li>
-                    <li><a href="#">Next</a></li>
+                    <li><a href="#">اللاحق</a></li>
                 </ul>
             </div>
         </div>

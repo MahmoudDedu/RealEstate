@@ -61,3 +61,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('index', function () {
     return view('user.index');
 })->name('user.index');
+Route::get('search', function () {
+    return view('user.page.search');
+})->name('user.search');

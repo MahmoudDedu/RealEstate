@@ -1,35 +1,30 @@
 <!DOCTYPE html>
 <html lang="ar">
-@include('user.page.partials.head')
+@include('user.partials.head')
 
 <body>
     <!-- Preloader -->
     <div id="preloader">
         <div id="status">&nbsp;</div>
     </div>
-
-    <!-- Header Connect -->
-    @include('user.page.partials.header')
-    <!-- End Header Connect -->
-
     <!-- Navbar -->
-    @include('user.page.partials.navbar')
+    @include('user.partials.navbar')
     <!-- End Navbar -->
 
     <!-- Slider Area -->
-    @include('user.page.partials.slider')
+    @include('user.partials.slider')
     <!-- End Slider Area -->
-
+    
     <!-- content Area -->
     @yield('content')
     <!-- End content Area -->
 
     <!-- Footer -->
-    @include('user.page.partials.footer')
+    @include('user.partials.footer')
     <!-- End Footer -->
 
     <!-- Scripts -->
-    @include('user.page.partials.script')
+    @include('user.partials.script')
 </body>
 
 </html>

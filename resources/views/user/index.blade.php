@@ -15,7 +15,6 @@
     <!-- Slider Area -->
     @include('user.partials.slider')
     <!-- End Slider Area -->
-
     <!-- categories Area -->
     <div class="content-area recent-property padding-top-40">
         <div class="container">
@@ -39,9 +38,18 @@
     <div class="content-area recent-property">
         <div class="container">
             <div class="row">
+                <div class="col-md-12">
+                    <div class="text-center "style="margin-bottom: 20px;">
+                        <h3>العقارات المميزة</h3>
+                    </div>
+                </div>
                 <div id="list-type" class="proerty-th">
 
                     <!--card-->
+                    @include('user.partials.card')
+                    @include('user.partials.card')
+                    @include('user.partials.card')
+                    @include('user.partials.card')
                     @include('user.partials.card')
                     @include('user.partials.card')
                     @include('user.partials.card')

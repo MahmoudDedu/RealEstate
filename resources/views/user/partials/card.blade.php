@@ -148,18 +148,18 @@
 
         <!-- التفاصيل الداخلية -->
         <div class="property-details">
-            <h5>Super nice villa</h5>
+            <h5>شقة سكنية</h5>
 
             <!-- السطر الذي يحتوي على المساحة والسعر مع مسافة بينهما -->
             <div class="meta-row">
-                <span class="property-area"><b>Area </b>1200</span>
+                <span class="property-area"><b>المساحة </b>1200</span>
                 <span class="property-price">$300,000</span>
             </div>
 
             <!-- الوصف المختصر مع "Read More" -->
             <p class="property-desc">
-                Luxurious place
-                <a href="#">Read More</a>
+            شقة سكنية مفروشة بالكامل للبيع في منطقة الرياض، تتكون من 3 غرف نوم وصالة ومطبخ وحمامين
+                <a href="#">قرائة المزيد</a>
             </p>
 
             <!-- أيقونات (غرف النوم/الحمامات/السيارة...) -->

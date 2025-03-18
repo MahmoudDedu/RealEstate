@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-10 col-md-offset-1 col-sm-12 text-center page-title">
                 <!-- /.feature title -->
-                <h2>You can trust Us </h2>
+                <h2>يمكنك الثقة بنا </h2>
             </div>
         </div>
         <div class="row">
@@ -16,7 +16,7 @@
                             </div>
                             <div class="chart" data-percent="5000">
                                 <h2 class="percent" id="counter">0</h2>
-                                <h5>HAPPY CUSTOMER </h5>
+                                <h5>المستخدمين السعيدين </h5>
                             </div>
                         </div>
                     </div>
@@ -27,7 +27,7 @@
                             </div>
                             <div class="chart" data-percent="12000">
                                 <h2 class="percent" id="counter1">0</h2>
-                                <h5>Properties in stock</h5>
+                                <h5>العقارات المتوفرة</h5>
                             </div>
                         </div>
                     </div>
@@ -38,7 +38,7 @@
                             </div>
                             <div class="chart" data-percent="120">
                                 <h2 class="percent" id="counter2">0</h2>
-                                <h5>City registered </h5>
+                                <h5>المدن المتواجدين فيها </h5>
                             </div>
                         </div>
                     </div>
@@ -49,7 +49,7 @@
                             </div>
                             <div class="chart" data-percent="5000">
                                 <h2 class="percent"  id="counter3">5000</h2>
-                                <h5>DEALER BRANCHES</h5>
+                                <h5>المكاتب العقارية </h5>
                             </div>
                         </div>
 

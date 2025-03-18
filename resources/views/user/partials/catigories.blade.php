@@ -1,14 +1,17 @@
-<!-- Boxicons CDN -->
+<!-- تضمين أيقونات Boxicons -->
 <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 <style>
+    /* تنسيق الحاوية الرئيسية */
     .sort-by-container {
         position: relative;
         width: 100%;
         overflow: hidden;
         padding: 10px 0;
+        direction: rtl; /* دعم اللغة العربية */
     }
 
+    /* تنسيق القائمة الأفقية */
     .sort-by-list {
         display: flex;
         gap: 15px;
@@ -23,10 +26,12 @@
         scroll-behavior: smooth;
     }
 
+    /* إخفاء شريط التمرير */
     .sort-by-list::-webkit-scrollbar {
         display: none;
     }
 
+    /* تنسيق العناصر */
     .sort-by-list li {
         background: #ffffff;
         padding: 12px 18px;
@@ -38,11 +43,13 @@
         cursor: pointer;
     }
 
+    /* عند تمرير الماوس */
     .sort-by-list li:hover {
         background: #f1f1f1;
         transform: translateY(-3px);
     }
 
+    /* العنصر النشط */
     .sort-by-list li.active {
         background: #FDC600;
         color: #fff;
@@ -52,6 +59,7 @@
         color: #fff;
     }
 
+    /* تنسيق الروابط */
     .sort-by-list a {
         display: flex;
         align-items: center;
@@ -59,9 +67,10 @@
         text-decoration: none;
         color: #333;
         font-weight: bold;
-        font-size: 1.5rem; /* تكبير حجم الخط */
+        font-size: 1.4rem; /* حجم الخط مناسب */
     }
 
+    /* زرّي التمرير */
     .scroll-btn {
         position: absolute;
         top: 50%;
@@ -85,36 +94,51 @@
         opacity: 1;
     }
 
+    /* زر الاتجاهات */
     .prev {
-        left: 10px;
+        right: 10px;
     }
 
     .next {
-        right: 10px;
+        left: 10px;
     }
 </style>
 
 <div class="sort-by-container">
-    <button class="scroll-btn prev"><i class='bx bx-chevron-left'></i></button>
+    <button class="scroll-btn prev"><i class='bx bx-chevron-right'></i></button>
     <ul class="sort-by-list">
-        <li class="active"><a href="#"><i class='bx bxs-building-house'></i> House</a></li>
-        <li><a href="#"><i class='bx bxs-castle'></i> Villa</a></li>
-        <li><a href="#"><i class='bx bxs-store'></i> Shop</a></li>
-        <li><a href="#"><i class='bx bxs-hotel'></i> Hotel</a></li>
-        <li><a href="#"><i class='bx bxs-briefcase'></i> Office</a></li>
-        <li><a href="#"><i class='bx bxs-home'></i> Apartment</a></li>
-        <li><a href="#"><i class='bx bxs-building'></i> Commercial</a></li>
-        <li><a href="#"><i class='bx bxs-factory'></i> Industrial</a></li>
-        <li><a href="#"><i class='bx bxs-tree'></i> Land</a></li>
-        <li><a href="#"><i class='bx bxs-garage'></i> Garage</a></li>
+        <li class="active"><a href="#"><i class='bx bxs-building-house'></i> منزل</a></li>
+        <li><a href="#"><i class='bx bxs-castle'></i> فيلا</a></li>
+        <li><a href="#"><i class='bx bxs-store'></i> متجر</a></li>
+        <li><a href="#"><i class='bx bxs-hotel'></i> فندق</a></li>
+        <li><a href="#"><i class='bx bxs-briefcase'></i> مكتب</a></li>
+        <li><a href="#"><i class='bx bxs-home'></i> شقة</a></li>
+        <li><a href="#"><i class='bx bxs-building'></i> تجاري</a></li>
+        <li><a href="#"><i class='bx bxs-factory'></i> صناعي</a></li>
+        <li><a href="#"><i class='bx bxs-tree'></i> أرض</a></li>
+        <li><a href="#"><i class='bx bxs-garage'></i> كراج</a></li>
+        <li><a href="#"><i class='bx bxs-home'></i> منزل ريفي</a></li>
+        <li><a href="#"><i class='bx bxs-city'></i> شقة فاخرة</a></li>
+        <li><a href="#"><i class='bx bxs-home-smile'></i> منزل مستقل</a></li>
+        <li><a href="#"><i class='bx bxs-tree-alt'></i> كوخ خشبي</a></li>
+        <li><a href="#"><i class='bx bxs-bank'></i> قصر فاخر</a></li>
+        <li><a href="#"><i class='bx bxs-paint'></i> استوديو صغير</a></li>
+        <li><a href="#"><i class='bx bxs-shopping-bag'></i> محل تجاري</a></li>
+        <li><a href="#"><i class='bx bxs-box'></i> مستودع</a></li>
+        <li><a href="#"><i class='bx bxs-landscape'></i> مساحات خضراء</a></li>
+        <li><a href="#"><i class='bx bxs-tree'></i> مزرعة</a></li>
+        <li><a href="#"><i class='bx bxs-car'></i> موقف سيارات</a></li>
+        <li><a href="#"><i class='bx bxs-beach'></i> منتجع سياحي</a></li>
+        <li><a href="#"><i class='bx bxs-coffee'></i> كافيه</a></li>
     </ul>
-    <button class="scroll-btn next"><i class='bx bx-chevron-right'></i></button>
+
+    <button class="scroll-btn next"><i class='bx bx-chevron-left'></i></button>
 </div>
 
 <script>
     const container = document.querySelector(".sort-by-list");
 
-    // Drag to scroll
+    // التمرير بالسحب
     let isDown = false;
     let startX;
     let scrollLeft;
@@ -136,16 +160,16 @@
         container.scrollLeft = scrollLeft - walk;
     });
 
-    // Scroll buttons
+    // أزرار التمرير
     document.querySelector(".prev").addEventListener("click", () => {
-        container.scrollBy({ left: -150, behavior: "smooth" });
-    });
-
-    document.querySelector(".next").addEventListener("click", () => {
         container.scrollBy({ left: 150, behavior: "smooth" });
     });
 
-    // Active item toggle
+    document.querySelector(".next").addEventListener("click", () => {
+        container.scrollBy({ left: -150, behavior: "smooth" });
+    });
+
+    // تغيير العنصر النشط عند النقر
     document.querySelectorAll('.sort-by-list li').forEach(item => {
         item.addEventListener('click', () => {
             document.querySelectorAll('.sort-by-list li').forEach(li => li.classList.remove('active'));
