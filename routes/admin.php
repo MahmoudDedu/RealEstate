@@ -58,6 +58,9 @@ use Illuminate\Support\Facades\Route;
 //         ->name('logout');
 // });
 
-Route::get('/admin-dashboard', function () {
-    return view('admin.page.dashboard');
+Route::get('/admin-index', function () {
+    return view('admin.master');
 })->name('admin.index');
+Route::get('/add-agents', function () {
+    return view('admin.page.add-agents');
+})->name('add.agents');
